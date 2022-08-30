@@ -1,9 +1,16 @@
-import React from "react";
-
+import styles from "../styles/pageStyle/404.module.scss";
+import ErrorImg from "../../public/404.svg";
+import { Link } from "react-router-dom";
 function NotFound() {
   return (
-    <div>
-      <h1>Error 404</h1>
+    <div className={styles.notFound}>
+      <div>
+        <img src={ErrorImg} alt="" />
+        <h1>Page Not Found</h1>
+        <Link to="/">
+          <button className="btn btn-outline-primary">Go to Home</button>
+        </Link>
+      </div>
     </div>
   );
 }

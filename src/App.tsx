@@ -1,10 +1,9 @@
-import react, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./styles/App.scss";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import NotFound from "./pages/404";
 import { Route, Routes } from "react-router-dom";
+import NotFound from "./pages/404";
+import About from "./pages/About";
+import Home from "./pages/Home";
+import "./styles/App.scss";
 
 function App() {
   return (

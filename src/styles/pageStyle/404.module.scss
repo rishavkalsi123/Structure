@@ -1,0 +1,13 @@
+.notFound {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  img {
+    max-width: 500px;
+  }
+  h1 {
+    margin: 1.5rem;
+  }
+}
